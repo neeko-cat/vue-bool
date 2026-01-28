@@ -5,5 +5,5 @@ export default defineConfig({
 	dts: true,
 	skipNodeModulesBundle: true,
 	minify: true,
-	platform: 'neutral'
+	platform: 'neutral',
 })

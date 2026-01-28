@@ -8,9 +8,7 @@ export function max(
 		const target = toValue(max)
 		let current = 0
 		for (const value of values)
-			if(toValue(value))
-				if(++current > target)
-					return false
+			if (toValue(value)) if (++current > target) return false
 		return true
 	})
 }

@@ -1,10 +1,10 @@
 import { computed, MaybeRefOrGetter, Ref, toValue } from 'vue'
 
 export function any(
-	...values: MaybeRefOrGetter<boolean>[]
+	...sources: MaybeRefOrGetter<boolean>[]
 ): Readonly<Ref<boolean>> {
 	return computed(() => {
-		for (const value of values) if (toValue(value)) return true
+		for (const source of sources) if (toValue(source)) return true
 		return false
 	})
 }

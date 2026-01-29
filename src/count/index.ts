@@ -1,11 +1,11 @@
 import { computed, MaybeRefOrGetter, Ref, toValue } from 'vue'
 
 export function count(
-	...values: MaybeRefOrGetter<boolean>[]
+	...sources: MaybeRefOrGetter<boolean>[]
 ): Readonly<Ref<number>> {
 	return computed(() => {
-		let total = 0
-		for (const value of values) if (toValue(value)) total++
-		return total
+		let value = 0
+		for (const source of sources) if (toValue(source)) value++
+		return value
 	})
 }

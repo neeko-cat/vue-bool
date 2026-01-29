@@ -2,13 +2,13 @@ import { computed, MaybeRefOrGetter, Ref, toValue } from 'vue'
 
 export function max(
 	max: MaybeRefOrGetter<number>,
-	...values: MaybeRefOrGetter<boolean>[]
+	...sources: MaybeRefOrGetter<boolean>[]
 ): Readonly<Ref<boolean>> {
 	return computed(() => {
 		const target = toValue(max)
 		let current = 0
-		for (const value of values)
-			if (toValue(value)) if (++current > target) return false
+		for (const source of sources)
+			if (toValue(source)) if (++current > target) return false
 		return true
 	})
 }

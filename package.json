@@ -7,8 +7,6 @@
 		"dist"
 	],
 	"type": "module",
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": "./dist/index.js",
@@ -23,7 +21,7 @@
 	},
 	"devDependencies": {
 		"oxfmt": "^0.27.0",
-		"tsdown": "^0.18.1",
+		"tsdown": "^0.20.1",
 		"typescript": "^5.9.3",
 		"vitest": "^4.0.18"
 	},

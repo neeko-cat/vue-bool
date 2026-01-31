@@ -26,6 +26,6 @@
 		"vitest": "^4.0.18"
 	},
 	"peerDependencies": {
-		"vue": "^3.5.27"
+		"vue": "^3.4"
 	}
 }

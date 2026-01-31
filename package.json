@@ -2,7 +2,22 @@
 	"name": "vue-bool",
 	"version": "0.1.0",
 	"private": true,
-	"description": "A simple example library built by tsdown",
+	"description": "A lightweight Vue utility library providing handy functions for working with booleans reactively.",
+	"keywords": [
+		"bool",
+		"booleans",
+		"reactive",
+		"vue"
+	],
+	"bugs": {
+		"url": "https://codeberg.org/freyja/vue-bool/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Aurora <aurora@4d2.org>",
+	"repository": {
+		"type": "git",
+		"url": "https://codeberg.org/freyja/vue-bool"
+	},
 	"files": [
 		"dist"
 	],

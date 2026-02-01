@@ -14,10 +14,11 @@
  * limitations under the License.
  */
 
-export { not } from './not'
-export { any } from './any'
-export { all } from './all'
-export { count } from './count'
-export { min } from './min'
-export { max } from './max'
-export { one } from './one'
+export { not } from '@/not'
+export { any } from '@/any'
+export { all } from '@/all'
+export { count } from '@/count'
+export { min } from '@/min'
+export { max } from '@/max'
+export { one } from '@/one'
+export { exact } from '@/exact'

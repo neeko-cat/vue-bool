@@ -12,4 +12,4 @@ npm i vue-bool
 
 ## License
 
-Licensed under the terms of the Apache License, Versio 2.0.
+Licensed under the terms of the Apache License, Version 2.0.
